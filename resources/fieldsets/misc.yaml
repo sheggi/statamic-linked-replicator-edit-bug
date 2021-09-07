@@ -1,0 +1,35 @@
+title: Misc
+fields:
+  -
+    handle: my_replicator
+    field:
+      collapse: false
+      sets:
+        first_set:
+          display: 'First SEt'
+          fields:
+            -
+              handle: first_set_text
+              field:
+                input_type: text
+                antlers: false
+                display: 'First Set Text'
+                type: text
+                icon: text
+                listable: hidden
+        second_set:
+          display: 'Second Set'
+          fields:
+            -
+              handle: second_set_text
+              field:
+                input_type: text
+                antlers: false
+                display: 'Second Set Text'
+                type: text
+                icon: text
+                listable: hidden
+      display: 'My Replicator'
+      type: replicator
+      icon: replicator
+      listable: hidden
