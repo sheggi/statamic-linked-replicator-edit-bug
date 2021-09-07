@@ -30,6 +30,11 @@ sections:
           type: template
           display: Template
           localizable: true
+      -
+        handle: my_replicator_asdf
+        field: misc.my_replicator
+        config:
+          display: 'My Replicator ASDF'
   sidebar:
     display: Sidebar
     fields:
